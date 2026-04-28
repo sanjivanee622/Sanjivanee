@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aarohi — UI/UX Designer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand">Aarohi<span>Design</span></a>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav class="main-nav" aria-label="Main">
+          <a href="#home">Home</a>
+          <a href="#tools">Tools</a>
+          <a href="#experience">Experience</a>
+          <a href="#clients">Clients</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">UI/UX • Social Media • Branding • Graphics</p>
+            <h1>Designing digital stories that users love to explore.</h1>
+            <p class="lead">
+              I craft thoughtful and accessible visual experiences for startups and brands,
+              turning ideas into polished products across web, mobile, and campaigns.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-outline">Let’s Work Together</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h3>Featured Impact</h3>
+            <ul>
+              <li>+42% improvement in app onboarding completion</li>
+              <li>31 successful branding and social launches</li>
+              <li>9+ years of multi-industry design collaboration</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="tools" class="section">
+        <div class="container">
+          <h2>Tools</h2>
+          <p class="section-sub">The stack I use from concept to final delivery.</p>
+          <div class="tool-grid">
+            <article class="chip-card"><h3>Figma</h3><p>Wireframes, UI systems, prototypes</p></article>
+            <article class="chip-card"><h3>Adobe XD</h3><p>Rapid interaction flows</p></article>
+            <article class="chip-card"><h3>Photoshop</h3><p>Photo editing and campaign assets</p></article>
+            <article class="chip-card"><h3>Illustrator</h3><p>Brand marks and vector graphics</p></article>
+            <article class="chip-card"><h3>After Effects</h3><p>Motion concepts and product reels</p></article>
+            <article class="chip-card"><h3>Miro</h3><p>User journey maps and workshops</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <h2>Experience</h2>
+          <p class="section-sub">A timeline of design leadership and execution.</p>
+          <div class="timeline">
+            <article>
+              <h3>Senior UI/UX Designer — PixelOrbit Studio</h3>
+              <p class="meta">2023 — Present</p>
+              <p>Lead product strategy, design systems, and usability testing for SaaS and fintech clients.</p>
+            </article>
+            <article>
+              <h3>Visual & Brand Designer — FrameCraft Agency</h3>
+              <p class="meta">2020 — 2023</p>
+              <p>Delivered social media campaigns, identity kits, and growth-focused creative assets.</p>
+            </article>
+            <article>
+              <h3>UI Designer — NextNova Tech</h3>
+              <p class="meta">2017 — 2020</p>
+              <p>Designed end-to-end mobile interfaces and improved conversion by simplifying user flows.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="clients" class="section">
+        <div class="container">
+          <h2>Clients</h2>
+          <p class="section-sub">Click any client to open a dedicated client project page.</p>
+          <div class="client-grid">
+            <a class="client-card" href="clients/aurora-fit.html">
+              <span class="logo">AF</span>
+              <div>
+                <h3>Aurora Fit</h3>
+                <p>Industry: Health & Fitness</p>
+              </div>
+            </a>
+            <a class="client-card" href="clients/beam-bank.html">
+              <span class="logo">BB</span>
+              <div>
+                <h3>Beam Bank</h3>
+                <p>Industry: Fintech</p>
+              </div>
+            </a>
+            <a class="client-card" href="clients/vista-bites.html">
+              <span class="logo">VB</span>
+              <div>
+                <h3>Vista Bites</h3>
+                <p>Industry: Food & Beverage</p>
+              </div>
+            </a>
+            <a class="client-card" href="clients/zenith-learn.html">
+              <span class="logo">ZL</span>
+              <div>
+                <h3>Zenith Learn</h3>
+                <p>Industry: EdTech</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="section-sub">Filter projects by category.</p>
+          <div class="tabs" role="tablist" aria-label="Project categories">
+            <button class="tab active" data-filter="all">All</button>
+            <button class="tab" data-filter="social-media">Social Media</button>
+            <button class="tab" data-filter="branding">Branding</button>
+            <button class="tab" data-filter="uiux">UI/UX</button>
+            <button class="tab" data-filter="graphics">Graphics</button>
+          </div>
+          <div class="project-grid" id="projectGrid">
+            <article class="project-card" data-category="uiux">
+              <h3>Beam Bank Mobile Onboarding</h3>
+              <p>UI/UX • Fintech app redesign with guided onboarding steps.</p>
+            </article>
+            <article class="project-card" data-category="social-media">
+              <h3>Vista Bites Summer Campaign</h3>
+              <p>Social media carousel set for seasonal offers and launches.</p>
+            </article>
+            <article class="project-card" data-category="branding">
+              <h3>Aurora Fit Brand System</h3>
+              <p>Complete branding kit including logo, typography, and palette.</p>
+            </article>
+            <article class="project-card" data-category="graphics">
+              <h3>Zenith Learn Illustration Pack</h3>
+              <p>Custom vector graphics for product walkthrough screens.</p>
+            </article>
+            <article class="project-card" data-category="uiux">
+              <h3>Zenith Learn Dashboard UX</h3>
+              <p>Data-heavy web dashboard with improved information hierarchy.</p>
+            </article>
+            <article class="project-card" data-category="social-media">
+              <h3>Beam Bank Investor Launch Reels</h3>
+              <p>Short motion-led creatives for LinkedIn and Instagram.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p class="section-sub">Let’s design something meaningful together.</p>
+          <div class="contact-card">
+            <p>Email: hello@aarohidesign.com</p>
+            <p>Phone: +1 (555) 123-8890</p>
+            <p>Location: New York, United States</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 Aarohi Design. Crafted with clarity and creativity.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
